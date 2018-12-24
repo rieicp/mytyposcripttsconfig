@@ -1,4 +1,5 @@
 config.contentObjectExceptionHandler = 0
+config.local_all = de_DE.utf8
 
 page = PAGE
 
