@@ -1,0 +1,28 @@
+{
+    "name": "wwgner/mytyposcripttsconfig",
+    "type": "typo3-cms-extension",
+    "description": "Template Extension for Typoscript learning",
+    "authors": [
+        {
+            "name": "Wolfgang Wagner",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwgner\\mytyposcripttsconfig\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wwgner\\mytyposcripttsconfig\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "mytyposcripttsconfig": "self.version",
+        "typo3-ter/mytyposcripttsconfig": "self.version"
+    }
+}

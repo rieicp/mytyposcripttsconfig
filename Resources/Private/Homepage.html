@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="Icons/favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../typo3conf/ext/mytyposcripttsconfig/Resources/Public/Css/bootstrap-flex.min.css" rel="stylesheet">
+	<!-- Smartmenu -->
+	<link rel="stylesheet" href="../typo3conf/ext/mytyposcripttsconfig/Resources/Public/Css/sm-core-css.css">
+	<link rel="stylesheet" href="../typo3conf/ext/mytyposcripttsconfig/Resources/Public/Css/sm-simple.css">
+	<link rel="stylesheet" href="../typo3conf/ext/mytyposcripttsconfig/Resources/Public/Css/smartmenu.css">
+    <link rel="stylesheet" href="../typo3conf/ext/mytyposcripttsconfig/Resources/Public/Css/mystyles.css">
+    <style>
+      .jumbotron { background: url(Images/headerimage.jpg) top left no-repeat; background-size: cover; }
+    </style>
+  </head>
+
+  <body class="homepage">
+  <div class="pageheader container">
+    <div class="row">
+      <div class="col-sm-4">
+        <!-- Sprachumschaltung -->
+        <div class="languagemenu">
+          <span class="curlang">DE</span><a href="#">EN</a><a href="#">FR</a>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <!-- Suche -->
+        <div class="searchform text-sm-right">
+          <form class="form-inline">
+            <input type="search" class="form-control" placeholder="Suche">
+            <button type="submit" class="btn btn-primary">Suche</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainnav">
+    <nav class="main-nav container" role="navigation">
+
+      <!-- Mobile menu toggle button (hamburger/x icon) -->
+      <input id="main-menu-state" type="checkbox"/>
+      <label class="main-menu-btn" for="main-menu-state">
+        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+      </label>
+
+      <h2 class="nav-brand"><a href="#">TYPO3 8 LTS TypoScript</a></h2>
+
+      <!-- Sample menu definition -->
+      <ul id="main-menu" class="sm sm-simple">
+        <li><a href="http://www.smartmenus.org/">Home</a></li>
+        <li><a href="http://www.smartmenus.org/about/">About</a>
+          <ul>
+            <li><a href="http://www.smartmenus.org/about/introduction-to-smartmenus-jquery/">Introduction to SmartMenus
+              jQuery</a></li>
+            <li><a href="http://www.smartmenus.org/about/themes/">Demos + themes</a></li>
+            <li><a href="http://vadikom.com/about/#vasil-dinkov">The author</a></li>
+            <li><a href="http://www.smartmenus.org/about/vadikom/">The company</a>
+              <ul>
+                <li><a href="http://vadikom.com/about/">About Vadikom</a></li>
+                <li><a href="http://vadikom.com/projects/">Projects</a></li>
+                <li><a href="http://vadikom.com/services/">Services</a></li>
+                <li><a href="http://www.smartmenus.org/about/vadikom/privacy-policy/">Privacy policy</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="http://www.smartmenus.org/download/">Download</a>
+          <ul>
+            <li><a href="#">PDF</a></li>
+          </ul>
+        </li>
+        <li><a href="http://www.smartmenus.org/support/">Support</a>
+          <ul>
+            <li><a href="http://www.smartmenus.org/support/premium-support/">Premium support</a></li>
+            <li><a href="http://www.smartmenus.org/support/forums/">Forums</a></li>
+          </ul>
+        </li>
+        <li><a href="http://www.smartmenus.org/docs/">Docs</a></li>
+        <li><a href="#">Sub test</a>
+          <ul>
+            <li><a href="#">Dummy item</a></li>
+            <li><a href="#">Dummy item</a></li>
+            <li><a href="#" class="disabled">Disabled menu item</a></li>
+            <li><a href="#">Dummy item</a></li>
+            <li><a href="#">more...</a>
+              <ul>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub
+                  menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">more...</a>
+                  <ul>
+                    <li><a href="#">Dummy item</a></li>
+                    <li><a href="#" class="current">A 'current' class item</a></li>
+                    <li><a href="#">Dummy item</a></li>
+                    <li><a href="#">more...</a>
+                      <ul>
+                        <li><a href="#">subMenusMinWidth</a></li>
+                        <li><a href="#">10em</a></li>
+                        <li><a href="#">forced.</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Dummy item</a></li>
+                    <li><a href="#">Dummy item</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub
+                  menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub
+                  menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub
+                  menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub
+                  menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub
+                  menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div><!-- Ende mainnav -->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container maincontent"><!-- Content Container -->
+      <!-- Content Bereich ueber ganze Breite -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Content Bereich über ganze Breite</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cum deserunt est eum expedita illo iste labore modi molestias nulla porro, repudiandae, similique voluptatibus? Dolorem eaque id repellat rerum veritatis!</p>
+        </div>
+      </div>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+      </div>
+      <!-- Content Bereich ueber ganze Breite -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Content Bereich über ganze Breite</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cum deserunt est eum expedita illo iste
+            labore modi molestias nulla porro, repudiandae, similique voluptatibus? Dolorem eaque id repellat rerum
+            veritatis!</p>
+        </div>
+      </div>
+
+      <!-- Beginn Footer Bereich -->
+      <hr>
+
+      <footer class="pagefooter">
+        <div class="row">
+          <div class="col-md-4">
+            <p>&copy; Company 2016</p>
+          </div>
+          <div class="col-md-8">
+            <ul class="metanav text-md-right">
+              <li><a href="#">Impressum</a></li>
+              <li><a href="#">Datenschutz</a></li>
+              <li><a href="#">AGB</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div> <!-- Ende Content Container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="JavaScript/jquery-3.1.1.min.js"><\/script>')</script>
+    <!-- tether.js is used for Bootstrap 4 Tooltips, http://v4-alpha.getbootstrap.com/components/tooltips/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="JavaScript/bootstrap.min.js"></script>
+    <script src="JavaScript/jquery.smartmenus.min.js"></script>
+  	<script src="JavaScript/custom.js"></script>
+  </body>
+</html>

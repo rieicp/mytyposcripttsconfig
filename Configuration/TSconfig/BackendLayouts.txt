@@ -1,0 +1,108 @@
+mod.web_layout.BackendLayouts {
+  jumbotron {
+    title = Jumbotron
+    icon = EXT:mytyposcripttsconfig/Resources/Public/Icons/BackendLayouts/jumbotron.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 4
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Jumbotron
+                colspan = 3
+                colPos = 4
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Main Content
+                colspan = 3
+                colPos = 0
+              }
+            }
+          }
+          3 {
+            columns {
+              1 {
+                name = Linke Spalte
+                colPos = 1
+              }
+              2 {
+                name = Mittlere Spalte
+                colPos = 3
+              }
+              3 {
+                name = Rechte Spalte
+                colPos = 2
+              }
+            }
+          }
+          4 {
+            columns {
+              1 {
+                name = Content bottom
+                colspan = 3
+                colPos = 5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  2spalten {
+    title = 2 Spalten
+    icon = EXT:mytyposcripttsconfig/Resources/Public/Icons/BackendLayouts/2spalten.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Main Content
+                colspan = 2
+                colPos = 0
+              }
+              2 {
+                name = Rechte Spalte
+                colPos = 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  1spalte {
+    title = 1 Spalte
+    icon = EXT:mytyposcripttsconfig/Resources/Public/Icons/BackendLayouts/1spalte.png
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Main Content
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

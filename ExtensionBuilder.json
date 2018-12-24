@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Template Extension for learning Typoscript",
+        "emConf": {
+            "category": "templates",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "mytyposcripttsconfig",
+        "name": "TYPO3 8 emplate for learning Typoscript",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Wolfgang Wagner",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Wwgner"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-12-21 08:42",
+        "extension_builder_version": "8.10.2",
+        "be_user": " (1)"
+    }
+}

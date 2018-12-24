@@ -1,0 +1,69 @@
+<f:layout name="Default" />
+
+<f:section name="Jumbotron">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <f:format.raw>{content4}</f:format.raw>
+        </div>
+    </div>
+</f:section>
+
+<f:section name="Multicloumn">
+    <div class="container maincontent"><!-- Content Container -->
+        <!-- Content Bereich ueber ganze Breite -->
+        <div class="row">
+            <div class="col-md-12">
+                <f:format.raw>{content0}</f:format.raw>
+            </div>
+        </div>
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <f:format.raw>{content1}</f:format.raw>
+            </div>
+            <div class="col-md-4">
+                <f:format.raw>{content3}</f:format.raw>
+            </div>
+            <div class="col-md-4">
+                <f:format.raw>{content2}</f:format.raw>
+            </div>
+        </div>
+        <!-- Content Bereich ueber ganze Breite -->
+        <div class="row">
+            <div class="col-md-12">
+                <f:format.raw>{content5}</f:format.raw>
+            </div>
+        </div>
+    </div>
+</f:section>
+
+<f:section name="2Spalten">
+    <!-- Rootline -->
+    <f:cObject typoscriptObjectPath="lib.rootline" />
+    <div class="container maincontent"><!-- Content Container -->
+        <div class="row">
+            <div class="col-md-8">
+                <f:format.raw>{content0}</f:format.raw>
+            </div>
+            <div class="col-md-4">
+                <!-- Subnavigation -->
+                <f:cObject typoscriptObjectPath="lib.subnavigation" />
+                <!-- Subnavigation Ende -->
+
+                <!-- rechte Spalte im Layout -->
+                <f:format.raw>{content2}</f:format.raw>
+            </div>
+        </div>
+</f:section>
+
+<f:section name="1Spalte">
+    <!-- Rootline -->
+    <f:cObject typoscriptObjectPath="lib.rootline" />
+    <div class="container maincontent"><!-- Content Container -->
+        <div class="row">
+            <div class="col-md-12">
+                <f:format.raw>{content0}</f:format.raw>
+            </div>
+        </div>
+</f:section>
