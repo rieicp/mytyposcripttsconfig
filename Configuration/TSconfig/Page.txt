@@ -25,6 +25,8 @@ TCEFORM.tt_content.layout.addItems {
 
 TCEFORM.tt_content.layout.types.image.altLabels.1 = Neue Bilder 000
 
+TCEFORM.tt_content.date.disabled = 1
+
 TCEFORM.sys_file_reference.crop.config.cropVariants {
     default {
         title = Default-0
