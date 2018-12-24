@@ -1,4 +1,4 @@
-mod.SHARED.colPos_list = 0
+#mod.SHARED.colPos_list = 0
 
 TCEFORM.tt_content.header_layout {
     altLabels {
@@ -22,6 +22,8 @@ TCEFORM.tt_content.layout.addItems {
     4 = Mein super Layout
     5 = Responsive Video
 }
+
+TCEFORM.tt_content.layout.types.image.altLabels.1 = Neue Bilder 000
 
 TCEFORM.sys_file_reference.crop.config.cropVariants {
     default {
