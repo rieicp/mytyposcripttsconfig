@@ -1,5 +1,10 @@
 config.contentObjectExceptionHandler = 0
 config.local_all = de_DE.utf8
+config {
+    spamProtectEmailAddresses = ascii
+    spamProtectEmailAddresses_atSubst = (at)
+    spamProtectEmailAddresses_lastDotSubst = (dot)
+}
 
 page = PAGE
 
