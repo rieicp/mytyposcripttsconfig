@@ -21,12 +21,14 @@ page.meta {
 }
 
 ## ------ Favicon einbinden ------
-#page.shortcutIcon = EXT:mytyposcripttsconfig/Resources/Public/Icons/erzb_favicon.ico
+page.shortcutIcon = EXT:mytyposcripttsconfig/Resources/Public/Icons/erzb_favicon.ico
 ##或者
+/*
 page.headerData.10 = TEXT
 page.headerData.10.value (
     <link rel="icon" href="fileadmin/user_upload/erzb_favicon.ico">
 )
+*/
 
 ## ------ CSS einbinden ------
 page.includeCSS {
@@ -128,6 +130,7 @@ page.10 {
 page.bodyTagCObject < page.10.variables.backendlayout
 page.bodyTagCObject.stdWrap.wrap = <body class="layout-|">
 
+/*
 page.100 = TEXT
 page.100.value = Guten Tag
 page.100.wrap = <h1>|</h1>
@@ -140,3 +143,4 @@ page.100.value = Guten Abend
     [hour = >21] || [hour = <7]
 page.100.value = Gute Nacht
     [hour]
+*/
