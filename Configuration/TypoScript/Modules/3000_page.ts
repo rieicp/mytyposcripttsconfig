@@ -91,13 +91,22 @@ temp.lastcontent {
         }
     }
 }
-
 temp.currentUrl = TEXT
 temp.currentUrl.typolink {
     parameter.data = TSFE:id
     returnLast = url
 }
 temp.currentUrl.wrap = http://typo3-cms/|
+
+
+lib.permright = CONTENT
+lib.permright {
+    table = tt_content
+    select {
+        where = colPos=2
+        pidInList = 1
+    }
+}
 
 page.10 = FLUIDTEMPLATE
 page.10 {
