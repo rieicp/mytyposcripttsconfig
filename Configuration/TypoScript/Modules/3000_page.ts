@@ -113,6 +113,9 @@ lib.permright {
     }
 }
 
+lib.marker = USER_INT
+lib.marker.userFunc = Wwgner\Mytyposcripttsconfig\MyClass->printIt
+
 page.10 = FLUIDTEMPLATE
 page.10 {
 
@@ -128,6 +131,8 @@ page.10 {
         lastcontent < temp.lastcontent
 
         currrentUrl < temp.currentUrl
+
+        marker      < lib.marker
 
         content0 = CONTENT
         content0 {
