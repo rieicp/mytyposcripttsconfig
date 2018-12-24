@@ -122,3 +122,16 @@ page.10 {
 ## 以便于对不同的Layout分别进行响应
 page.bodyTagCObject < page.10.variables.backendlayout
 page.bodyTagCObject.stdWrap.wrap = <body class="layout-|">
+
+page.100 = TEXT
+page.100.value = Guten Tag
+page.100.wrap = <h1>|</h1>
+    [hour = >6,<15]
+page.100.value = Guten Morgen
+    [hour]
+    [hour = >18,<22]
+page.100.value = Guten Abend
+    [hour]
+    [hour = >21] || [hour = <7]
+page.100.value = Gute Nacht
+    [hour]
