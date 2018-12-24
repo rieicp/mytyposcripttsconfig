@@ -1,8 +1,6 @@
 lib.copyright = COA
 lib.copyright {
 
-    wrap = <p>|</p>
-
     10 = TEXT
     10.value = &copy;&nbsp;
 

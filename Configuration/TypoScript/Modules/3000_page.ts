@@ -62,6 +62,13 @@ page.includeJSFooter {
 
 ## ------ Template anwenden ------
 
+temp.lastchanged = TEXT
+temp.lastchanged {
+    field = SYS_LASTCHANGED
+    date = d.m.Y
+    wrap = Last changed: |
+}
+
 page.10 = FLUIDTEMPLATE
 page.10 {
 
@@ -71,6 +78,8 @@ page.10 {
     file = EXT:mytyposcripttsconfig/Resources/Private/Templates/Default.html
 
     variables {
+
+        lastchanged < temp.lastchanged
 
         content0 = CONTENT
         content0 {
