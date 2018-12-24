@@ -91,6 +91,13 @@ temp.lastcontent {
     }
 }
 
+temp.currentUrl = TEXT
+temp.currentUrl.typolink {
+    parameter.data = TSFE:id
+    returnLast = url
+}
+temp.currentUrl.wrap = http://typo3-cms/|
+
 page.10 = FLUIDTEMPLATE
 page.10 {
 
@@ -104,6 +111,8 @@ page.10 {
         lastchanged < temp.lastchanged
 
         lastcontent < temp.lastcontent
+
+        currrentUrl < temp.currentUrl
 
         content0 = CONTENT
         content0 {
