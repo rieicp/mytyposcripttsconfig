@@ -21,7 +21,12 @@ page.meta {
 }
 
 ## ------ Favicon einbinden ------
-page.shortcutIcon = EXT:mytyposcripttsconfig/Resources/Public/Icons/favicon.ico
+#page.shortcutIcon = EXT:mytyposcripttsconfig/Resources/Public/Icons/erzb_favicon.ico
+##或者
+page.headerData.10 = TEXT
+page.headerData.10.value (
+    <link rel="icon" href="fileadmin/user_upload/erzb_favicon.ico">
+)
 
 ## ------ CSS einbinden ------
 page.includeCSS {
