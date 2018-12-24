@@ -66,7 +66,29 @@ temp.lastchanged = TEXT
 temp.lastchanged {
     field = SYS_LASTCHANGED
     date = d.m.Y
-    wrap = Last changed: |
+    wrap = , Last changed: |
+}
+
+temp.lastcontent = COA
+temp.lastcontent {
+    20 = CONTENT
+    20 {
+        table = tt_content
+        select {
+            pidInList = 1
+            ## recursive定义pidInList的子页面的级数
+            recursive = 10
+            orderBy = tstamp DESC
+            max = 1
+        }
+        renderObj = COA
+        renderObj {
+            10 = TEXT
+            10.field = tstamp
+            10.date = d.m.Y
+            10.wrap = , Last content: |
+        }
+    }
 }
 
 page.10 = FLUIDTEMPLATE
@@ -80,6 +102,8 @@ page.10 {
     variables {
 
         lastchanged < temp.lastchanged
+
+        lastcontent < temp.lastcontent
 
         content0 = CONTENT
         content0 {
